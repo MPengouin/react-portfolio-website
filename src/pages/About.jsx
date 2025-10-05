@@ -5,6 +5,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className='about-container'>
+      <title>About</title>
       <h1 className='header'>Who am I?</h1>
       <h2 className='sub-header'>Logan Brignac, Sophmore at Louisiana Tech University Studying Computer Science</h2>
       <p className='paragraph'>Hi my name is Logan Brignac as mentioned before I study computer science. In terms of my journey of learning
