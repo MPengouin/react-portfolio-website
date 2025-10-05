@@ -1,0 +1,61 @@
+
+.about-container {
+ position: fill;
+ top: -150px;
+ padding: 20px;
+ background-image: url(src/images/website_background2.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-color: rgba(27, 25, 25, 255);
+ min-height: 100vh;
+}
+
+.header {
+ top: 0vh;
+ font-family: 'JetBrains', sans-serif;
+ font-weight: bold;
+ color: #02ae02;
+}
+
+.sub-header {
+ top: 0vh;
+ font-family: 'JetBrainsBold', sans-serif;
+ font-weight: bold;
+ color: #02ae02;
+}
+
+.paragraph {
+ top: 0vh;
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ color: #02ae02;
+}
+
+.group-pic {
+ width: 50%;
+ height: auto;
+}
+
+.group-pic-caption {
+ height: 200px;
+ width: 400px;
+ overflow-wrap: break-word;
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ font-size: small;
+ float: right;
+ margin: 10%;
+ color: #02ae02;
+}
+
+.back-button {
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ position: fixed;
+ top: 10px;
+ right: 10px;
+ font-size: 2.5rem;
+ color: #02ae02;
+ text-shadow: 0 0 15px rgba(0, 128, 0, 0.6);
+}
