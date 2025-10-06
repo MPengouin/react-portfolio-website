@@ -1,18 +1,17 @@
 
 .about-container {
- position: fill;
  top: -150px;
  padding: 20px;
  background-image: url(src/images/website_background2.png);
- background-size: cover;
+ background-size: contain;
  background-repeat: no-repeat;
- background-position: center center;
  background-color: rgba(27, 25, 25, 255);
  min-height: 100vh;
+ 
 }
 
 .header {
- top: 0vh;
+ top: vh;
  font-family: 'JetBrains', sans-serif;
  font-weight: bold;
  color: #02ae02;
