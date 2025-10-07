@@ -1,3 +1,68 @@
+.main {
+ min-height: 100vh;
+ min-width: 100vw;
+ background-image: url('src/images/website_background2.png');
+ background-size: cover;
+ background-position: center;
+}
+
+.secondary-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: 'JetBrains', sans-serif;
+ font-weight: bold;
+ font-size: large;
+ flex-direction: column;
+ min-height: 100vh;
+ min-width: 100%;
+ color: #02ae02;
+}
+
+.languages-container {
+ text-align: center;
+ font-size: xx-large;
+}
+
+.languages {
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ font-size: medium
+}
+
+.ides-container {
+ text-align: center;
+ font-size: xx-large;
+}
+
+.ides {
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ font-size: medium
+}
+
+.applications-container {
+ text-align: center;
+ font-size: xx-large;
+}
+
+.applications {
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ font-size: medium
+}
+
+.frameworks-container {
+ text-align: center;
+ font-size: xx-large;
+}
+
+.frameworks {
+ font-family: 'JetBrains', sans-serif;
+ font-weight: normal;
+ font-size: medium
+}
+
 .back-button {
  font-family: 'JetBrains', sans-serif;
  font-weight: normal;
