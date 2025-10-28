@@ -20,7 +20,7 @@ export default function About() {
       arm that combines the physical and digital realms. This project taught me alot about teamwork and cooperation as we had to communicate and coordinate
       effectively in order to get this complex project done by the due date which was around 6 weeks.
       </p>
-      <img className='group-pic' src="src/images/groupPhoto.jpeg" alt="Group photo" />
+      <img className='group-pic' src="../images/groupPhoto.jpeg" alt="Group photo" />
       <h2 className='group-pic-caption'>This is a picture of me and my group after winning 1st place at Louisiana Tech's Freshman Design Expo! 
         The people in this photo from left to right are Ryan Bourges, Gage Waller, Logan Brignac (Me), Whitney Jones, Joshua Coriell (Professor). </h2>
       <Link to="/" className="back-button">

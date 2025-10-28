@@ -18,7 +18,7 @@ export default function Skills() {
         <div className='ides'>IntelliJ</div>
       </div>
       <br />
-      <div className='applications-container'>Applications
+      <div className='applications-container'>Source Control
         <div className='applications'>GitHub</div>
       </div>
       <br />

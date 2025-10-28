@@ -10,7 +10,7 @@ export default function Contact() {
       <br />
       <a className='linkedIn' href="https://www.linkedin.com/in/logan-brignac-671755347?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BO22fzR8LTV%2BinPHty0HKzA%3D%3D">LinkedIn</a>
       <br />
-      <img className='headShot' src="src/images/temp3.png" alt="headshot" />
+      <img className='headShot' src="../images/temp3.png" alt="headshot" />
       <Link to="/" className="back-button">
                 <span> &larr;Home</span>
               </Link>

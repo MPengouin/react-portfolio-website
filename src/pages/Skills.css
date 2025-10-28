@@ -1,7 +1,7 @@
 .main {
  min-height: 100vh;
  min-width: 100vw;
- background-image: url('src/images/website_background2.png');
+ background-image: url('../images/website_background2.png');
  background-size: cover;
  background-position: center;
 }

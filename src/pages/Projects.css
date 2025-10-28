@@ -1,50 +1,120 @@
-
-.main-Container {
+.projects-page {
+  padding: 2rem;
+  background-color: #f5f5f5;
   min-height: 100vh;
-  min-width: 100vw;
-  background-image: url('src/images/website_background2.png');
+  width: 100%;
+  background-image: url('../images/website_background2.png');
   background-size: cover;
-  background-position: center;
-  color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
+  box-sizing: border-box;
+  flex: 1;
 }
 
 .header {
- align-items: center;
- margin-top: 5%;
- color: #02ae02;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
-.project-Container {
- color: #fff;
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
 }
 
-.project-1 {
- padding: 10px;
- color: #fff;
- background-color: rgba(41, 39, 39, 255);
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  min-height: 420px;
+  background: #4c4444;
+  border-radius: 10px;
 }
 
-.project-Name {
- color: #02ae02;
- font-family: 'JetBrains', sans-serif;
- font-weight: normal;
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
-.project-Img {
- color: #fff;
- height: 300px;
- width: auto;
+.project-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
 }
- 
-.button {
- color: #02ae02;
- font-family: 'JetBrains', sans-serif;
- font-weight: normal;
+
+.project-content {
+  flex-grow: 1;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-family: 'Jetbrains', 'sans-serif';
+  color: #02ae02;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #02ae02;
+  margin-bottom: 1rem;
+  font-family: 'Jetbrains', 'sans-serif';
+}
+
+.project-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.details-btn {
+  margin-bottom: 1rem;
+  font-family: 'Jetbrains', 'sans-serif';
+}
+
+.modal {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 90%;
+  background-color: #272525;
+  border-radius: 12px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal > .project-Name {
+  color: #02ae02;
+  font-family: 'Jetbrains', 'sans-serif';
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.modal > .full-Body {
+  color: #02ae02;
+  font-family: 'Jetbrains', 'sans-serif';
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.close-btn {
+  font-weight: normal;
+  font-family: 'Jetbrains', 'sans-serif';
+}
+
+.project-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  font-family: 'Jetbrains', 'sans-serif';
+}
+
+.project-link:hover {
+  color: #0b5bd3;
 }
 
 .back-button {
