@@ -29,6 +29,12 @@
  font-size: 2vw;
 }
 
+.headShot {
+ border-radius: 50%;
+ width: 15vw;
+ height: 15vw;
+}
+
 .back-button {
  font-family: 'JetBrains', sans-serif;
  font-weight: normal;

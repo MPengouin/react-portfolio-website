@@ -1,4 +1,4 @@
-/* Dark gradient background */
+
 .lobby-container {
   min-height: 100vh;
   min-width: 100vw;
@@ -14,7 +14,6 @@
   overflow: hidden;
 }
 
-/* Title at top */
 .lobby-title {
   font-size: 5rem;
   font-family: 'JetBrains', sans-serif;
@@ -34,14 +33,12 @@
   margin-top: -35px;
 }
 
-/* Flex row for circles */
 .lobby-circles {
   display: flex;
   gap: 80px;
   margin-top: 10%;
 }
 
-/* Each circle */
 .lobby-circle {
   width: 140px;
   height: 140px;
@@ -60,7 +57,6 @@
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
-/* Hover glow effect */
 .lobby-circle:hover {
   transform: scale(1.15);
   box-shadow: 0 0 25px rgba(66, 135, 245, 0.8), 0 0 40px rgba(212, 175, 55, 0.6);

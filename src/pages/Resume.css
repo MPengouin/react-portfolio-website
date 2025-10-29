@@ -1,3 +1,7 @@
+.resumePDF {
+ max-height: 100vh;
+}
+
 .back-Button {
  font-family: 'JetBrains', sans-serif;
  font-weight: normal;
